@@ -5,6 +5,8 @@ import Home from "./components/Home"
 import Destination from "./components/Destination";
 import NavBar from './components/NavBar'
 import About from './components/About'
+import Footer from './components/Footer'
+import 'boxicons'
 function App() {
   return (
    <>
@@ -15,6 +17,7 @@ function App() {
       <Route path="/destination" element={<Destination/>} />
       <Route path="/about" element={<About/>} />
     </Routes>
+    <Footer/>
     </BrowserRouter>
    </>
   );

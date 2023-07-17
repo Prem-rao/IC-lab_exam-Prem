@@ -6,7 +6,9 @@ const NavBar = () => {
     <>
         <nav class="navbar  navbar-expand ">
             <div class="container-fluid">
+                <Link class="nav-link" to={"/"}>
                         <h3>Traveller</h3>
+                </Link>
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <Link class="nav-link" to={"/"}>
