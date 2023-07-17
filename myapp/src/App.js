@@ -4,6 +4,7 @@ import "bootstrap/dist/js/bootstrap.bundle";
 import Home from "./components/Home"
 import Destination from "./components/Destination";
 import NavBar from './components/NavBar'
+import About from './components/About'
 function App() {
   return (
    <>
@@ -12,7 +13,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/destination" element={<Destination/>} />
-      <Route path="/destination" element={<Destination/>} />
+      <Route path="/about" element={<About/>} />
     </Routes>
     </BrowserRouter>
    </>

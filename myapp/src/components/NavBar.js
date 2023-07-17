@@ -4,21 +4,29 @@ import "bootstrap/dist/css/bootstrap.min.css"
 const NavBar = () => {
   return (
     <>
-        <nav class="navbar  navbar-expand bg-dark navbar-dark">
+        <nav class="navbar  navbar-expand ">
             <div class="container-fluid">
-                <ul class="navbar-nav me-auto">
+                        <h3>Traveller</h3>
+                <ul class="navbar-nav">
                     <li class="nav-item">
-                        <Link class="nav-link" to={"/"}>Home</Link>
+                        <Link class="nav-link" to={"/"}>
+                            <span>Home</span>
+                        </Link>
                     </li>
                     <li class="nav-item">
-                        <Link class="nav-link" to={"/destination"}>Destination</Link>
+                        <Link class="nav-link" to={"/destination"}>
+                            <span>Destination</span>
+                        </Link>
                     </li>
                     <li class="nav-item">
-                        <Link class="nav-link" to={"/about"}>About</Link>
+                        <Link class="nav-link" to={"/about"}>
+                            <span>About</span>
+                        </Link>
                     </li>
+                    <div class="form-group mx-sm-3 mt-1 ">
+                    <input type="text" class="form-control-file" placeholder="Search"/>
+                    </div>
                 </ul>
-                <Link className='btn btn-primary mx-1' to="/login">Login</Link>
-                <Link className='btn btn-primary mx-1' to="/sign-up">SignUp</Link>
             </div>
         </nav>
     </>
