@@ -11,7 +11,7 @@ const NavBar = () => {
                         <Link class="nav-link" to={"/"}>Home</Link>
                     </li>
                     <li class="nav-item">
-                        <Link class="nav-link" to={"/contact"}>Destination</Link>
+                        <Link class="nav-link" to={"/destination"}>Destination</Link>
                     </li>
                     <li class="nav-item">
                         <Link class="nav-link" to={"/about"}>About</Link>
