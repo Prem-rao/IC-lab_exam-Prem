@@ -58,7 +58,7 @@ const Home = () => {
                 <p class="card-text">
                 If you are one of those people who wants to venture to a land that is blessed with concrete jungles but is also not too far from the natural world, we have just found the perfect place for you. There is a country in Southeast Asia that encompasses all of these qualities mentioned above. 
                 </p>
-                <a href="#" class="btn btn-primary">
+                <a href="/" class="btn btn-primary">
                   Register
                 </a>
               </div>
